@@ -1,30 +1,37 @@
 // <!-- Image opacity can be adjusted in const opacity = index === activeIndex ? 1 : 1; -->
 const testimonials = [
   {
-    quote:
-      "I was impressed by the food — every dish is bursting with flavor! And I could really tell that they use high-quality ingredients. The staff was friendly and attentive, going the extra mile. I'll definitely be back for more!",
-    name: "Tamar Mendelson",
-    designation: "Restaurant Critic",
-    src:
-      "https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?q=80&w=1368&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "quote": "I attended class at Glisten over my summer break for Core Java, C and SQL. Vikas sir taught me a lot! To be honest, I was not as keen on doing coding initially but then after he taught me, my view on coding changed. He was able to keep me engaged throughout every class which made it much easier and more interesting to learn.",
+    "name": "Rahul",
+    "designation": "Developer",
+    "src": "https://glisteneducation.com/wp-content/uploads/.../peter.jpg"
   },
   {
-    quote:
-      "This place exceeded all expectations! The atmosphere is inviting, and the staff truly goes above and beyond to ensure a fantastic visit. I'll definitely keep returning for more exceptional dining experience.",
-    name: "Joe Charlescraft",
-    designation: "Frequent Visitor",
-    src:
-      "https://images.unsplash.com/photo-1628749528992-f5702133b686?q=80&w=1368&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D"
+    "quote": "Thank you so much sir for guiding me in my course ASP.net. You are a great teacher and your way of teaching is very good. You guided me in every problem I faced. You are inspirational. Your guidance has made me complete the course successfully. I owe a debt of gratitude for all that you have done for me.",
+    "name": "Koustav Roy",
+    "designation": "Programmer",
+    "src": "https://glisteneducation.com/wp-content/uploads/.../manuel.jpg"
   },
   {
-    quote:
-      "Shining Yam is a hidden gem! From the moment I walked in, I knew I was in for a treat. The impeccable service and overall attention to detail created a memorable experience. I highly recommend it!",
-    name: "Martina Edelweist",
-    designation: "Satisfied Customer",
-    src:
-      "https://images.unsplash.com/photo-1524267213992-b76e8577d046?q=80&w=1368&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D"
+    "quote": "I have joined in Glisten for the course core Java. All the basics were explained with programs, doubts were cleared then and there. Useful tips given throughout the course. Practical class were conducted. Real time examples were also explained. Thanks for Glisten and our trainer Vikas.",
+    "name": "Sandhya",
+    "designation": "Java Developer",
+    "src": "https://glisteneducation.com/wp-content/uploads/.../john-doe.jpg"
+  },
+  {
+    "quote": "Hello sir your teaching is good and the doubts you clear as simple is fabulous. Thank you!",
+    "name": "Anees",
+    "designation": "Junior Developer",
+    "src": "https://glisteneducation.com/wp-content/uploads/.../elsie.jpg"
+  },
+  {
+    "quote": "With Glisten I had a very good experience as I joined Glisten with an ambition of gaining knowledge and a dream of working in a reputed IT company. About the training, it is very satisfying. The faculty has helped me in preparing and getting ready for the IT industry.",
+    "name": "Arun Janardhan",
+    "designation": "IT manager",
+    "src": "https://glisteneducation.com/wp-content/uploads/.../anthony.jpg"
   }
-];
+]
+
 
 let activeIndex = 0;
 const imageContainer = document.getElementById("image-container");

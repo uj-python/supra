@@ -40,7 +40,8 @@ if (!isset($pageDescription)) {
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
         <div class="container">
             <a class="navbar-brand" href="index.php">
-                <img src="/supra/assets/images/logo.png" alt="Suprainspire Logo" height="50">
+                <img src="/supra/assets/images/logo
+                .png" alt="Suprainspire Logo" height="100">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>

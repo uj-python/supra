@@ -1,5 +1,17 @@
 <footer class="bg-dark text-white text-center py-3 mt-5">
-    <p class="mb-0">&copy; <?php echo date('Y'); ?> Suprainspire Education. All rights reserved.</p>
+    <div class="container">
+
+        <p class="mb-0">&copy; <?php echo date('Y'); ?> Suprainspire Education. All rights reserved.</p>
+        
+        <div class="mb-2">
+            <a href="index.php" class="text-white text-decoration-none mx-2">Home</a> |
+            <a href="about.php" class="text-white text-decoration-none mx-2">About</a> |
+            <a href="services.php" class="text-white text-decoration-none mx-2">Services</a> |
+            <a href="test-preparation.php" class="text-white text-decoration-none mx-2">Test Preparation</a> |
+            <a href="contact.php" class="text-white text-decoration-none mx-2">Contact</a> |
+            <a href="admin.php" class="text-white text-decoration-none mx-2">Admin</a>
+        </div>
+    </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
